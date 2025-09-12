@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario WEB</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+   
+</head>
+<body>
+    <div id="formulario">
+        <h1>Formulário WEB</h1>
+        <p>
+            Acesse meu instagram 
+            <a href="http://"><i class="bi bi-instagram" re></i>
+            </a>
+            
+        </p>
+    
+    <form action="#" method="get">
+        <label for="nome">Nome:</label>
+        <input id="nome" name="nome" placeholder="Digite seu nome" type="text" required>
+        
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+       
+        <label for="periodo">Semestre da graduação</label>
+        <input type="number" min="1" max="8" name="periodo" id="periodo" step="2">
+        <!-- Para enviar o Formulario todo -->
+        
+       
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" maxlength="8" minlength="6">
+       
+        <label for="placa">Placa do seu veiculo</label>
+        <input type="text" pattern="[a-zA-Z]{3}[0-9]{1}[a-zA-Z]{1}[0-9]{2}" placeholder="AAA0A00" name="placa" id="placa">
+    
+        <label for="nasc">Data de nascimento</label>
+        <input type="date" name="nasc" id="nasc">
+        <input type="submit" value="salvar" class="submit">
+
+    </form>
+</div>
+</body>
+</html>
+

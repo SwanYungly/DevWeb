@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    display: block;
+    margin-top: 1rem;
+}
+.formulario{
+    margin: 2rem;
+    margin-top: 2rem;
+}
+input {
+    border-radius: 0.4rem;
+    border-color: gray;
+    padding: 0.3rem;
+}
+.submit:hover{
+    
+    background-color: purple;
+    color: white;
+
+}
