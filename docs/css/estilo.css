@@ -34,7 +34,6 @@ nav {
   background-color: #34495e;
   text-align: center;
   padding: 10px 0;
-  position: sticky;
   top: 0;
 }
 
@@ -76,7 +75,7 @@ section p, section li, section a {
 
 
 #habilidades ul {
-  list-style: disc;
+  
   margin-left: 20px;
 }
 
@@ -96,11 +95,4 @@ p a{
 }
 
 
-/* Não pedia na atividade mas quis fazer para deixar mais atrativo */
-@media (max-width: 600px) {
-  nav li {
-    display: block;
-    margin: 5px 0;
-  }
-}
 
