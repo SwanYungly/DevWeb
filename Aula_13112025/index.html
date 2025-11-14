@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 13-11</title>
+</head>
+<body>
+    <p>Selecione o radio button e clique em enviar</p>
+    <p>Genero:</p>
+    <input type="radio" name="gender" value="Masculino">Masculino
+    <input type="radio" name="gender" value="Feminino">Feminino
+    <input type="radio" name="gender" value="Outro">Outro
+    <p></p>
+    <button type="button" onclick="displayRadioValue()">
+        Enviar
+    </button>
+    <div id="result"></div>
+
+    <div>
+        <h2>Qual o elemento da lista foi selecionado?</h2>
+        <p>Selecione uma das opções de plano
+            <select id="select1">
+                <option value="Free">Free</option>
+                <option value="Basic"  selected>Basic</option>
+                <option value="Premium">Premium</option>
+            </select>
+        </p>
+        <p>
+            O valor selecionado é:
+            <span class="output"></span>
+        </p>
+        <button onclick="getOption()">Veja a seleção</button>
+    </div>
+
+    <div>
+        <h2>Elementos check</h2>
+        <p>Quais sua prioridades?</p>
+        <p>
+            Trabalho<input type="checkbox" name="work" value="Trabalho" id="w">
+        </p>
+        <p>
+            Estudos<input type="checkbox" name="study" value="Estudos" id="s">
+        </p>
+        <p>
+            Saúde<input type="checkbox" name="health" value="Saúde" id="w">
+        </p>
+        <p>
+            <button onclick="getCheckedBox()">Enviar</button>
+        </p>
+        <P>Minha prioridades são <span id="pri">...</span></P>
+
+    </div>
+</body>
+</html>
+<script src="meuscript.js"></script>
